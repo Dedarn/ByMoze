@@ -1,6 +1,6 @@
 :root {
     --vert:#bbcf31;
     --bleu: #0d70b3;
-    --roboto : roboto ;
-    --montserrat : montserrat;
+    --roboto : "Roboto", "sans-serif";
+    --montserrat : "montserrat" , "sans-serif";
 }

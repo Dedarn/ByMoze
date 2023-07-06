@@ -24,7 +24,7 @@
     height: 20px;
     display: flex;
     justify-content: center;
-    font-family: montserrat;
+    font-family: var(--montserrat);
     font-size: 12px;
     background-color: --vert;
     border: none;
@@ -46,10 +46,10 @@
 }
 
 /* Icône burger */
-.burger-icon span {
+.burger-icon {
     display: block;
     width: 25px;
-    height: 3px;
+    height: 25px;
     border-radius: 6px;
     background-color: --bleu;
     margin: 6px 0;
@@ -65,4 +65,47 @@
     margin: 0;
     opacity: 1;
 
+}
+/* cache le menu burger */
+.hidden{
+    display: none;
+}
+/* pop up header pour le menu burger */
+.div_btn{
+    display: flex;
+    width: 50px;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 12px;
+    align-items: start;
+    margin: auto;
+}
+/* texte dans le pop up */
+.div_btn > p {
+font-family: 'Roboto', sans-serif;
+}
+/* cadre du pop up qui apparait */
+#modal_bg > .cadre_popup {
+    width: 110px;
+    height: 210px;
+    background-color: #ffffff;
+    margin: auto ;
+    transform: translateY(calc(12vh - 75px))
+                translateX(115%);
+    padding: 15px;
+    background-color: #bacf318e;
+    animation: popup 1.3s linear ;
+}
+@keyframes popup {
+    0%{
+    opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.icons_nav{
+    width: 15px;
+    height: 15px;
 }
