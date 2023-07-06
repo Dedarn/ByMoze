@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaluation mozer</title>
+    <link rel="stylesheet" href="css/evaluation_mozer.css">
+</head>
+<body>
+    
+    <?php 
+ include "header.php";
+?>
+    <main>
+        <section>
+            <article>
+                <h1 class="eval_moz">Nom Prénom</h1> 
+                <p class="p_e_m_1">Evaluez votre Mozer :</p>
+                
+                    <div class="rating-stars">
+                        <input type="radio" name="rating" id="rs0" checked><label for="rs0"></label>
+                        <input type="radio" name="rating" id="rs1"><label for="rs1"></label>
+                        <input type="radio" name="rating" id="rs2"><label for="rs2"></label>
+                        <input type="radio" name="rating" id="rs3"><label for="rs3"></label>
+                        <input type="radio" name="rating" id="rs4"><label for="rs4"></label>
+                        <input type="radio" name="rating" id="rs5"><label for="rs5"></label>
+                        
+                    </div>
+                    
+                
+            </article>
+        </section>
+        
+            
+        <section>
+            <article>
+                <hr class="lower_line">
+                    <p>Ménage</p>
+                    <p>Nettoyage mécanisé</p>
+                    <p>Vitrerie</p>
+                    <p>Bricolage</p>
+                    <p>Jardinage</p>
+                <hr class="lower_line">
+                 
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h4>Commentaires:</h4>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Laissez un commentaire"></textarea>
+            </article>
+        </section>
+
+        <div class="but_insc">
+            <button >Valider</button>
+        </div>
+    </main>
+    <?php 
+    include "footer.php";
+   ?>
+</body>
+</html>
