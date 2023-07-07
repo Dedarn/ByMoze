@@ -1,0 +1,128 @@
+/* Header */
+#header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Menu partie droite */
+#home_burger {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 5px;
+    align-items: center;
+}
+
+/* Bouton on recrute */
+#bouton_recrute {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: var(Montserrat);
+    font-size: 12px;
+    background-color: var(--vert);
+}
+
+/* Logo By Moze */
+.logo_by_moze {
+    width: 70px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* Icône Home */
+.home_button {
+    width: 19px;
+    height: 19px;
+}
+
+/* Icône burger */
+.burger-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    border-radius: 6px;
+    background-color: var(--bleu);
+    margin: 6px 0;
+}
+
+/* Div Home + texte */
+#home_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+}
+
+/* Texte Home */
+#text_home {
+    font-family: var(Montserrat);
+    font-size: 10px;
+    color:  --bleu;
+    margin-bottom: 0;
+}
+
+/* Lower line */
+.lower_line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--bleu);
+    outline: none;
+    border: none;
+    margin: 0;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+.div_btn{
+display: flex;
+width: 60px;
+flex-direction: row;
+font-size: 12px;
+align-items: start;
+margin: auto;
+}
+/* texte dans le pop up */
+.div_btn_2 > a > p {
+font-family: 'Roboto', sans-serif;
+margin-bottom: 0;
+}
+/* cadre du pop up qui apparait */
+#modal_bg_2 > .cadre_popup_2 {
+position: absolute;
+right: 0;
+width: 110px;
+height: 150px;
+background-color: #ffffff;
+margin: auto ;
+transform: translateY(calc(12vh - 75px))
+            translateX(-8%);
+padding: 15px;
+background-color: #bacf31aa;
+animation: popup 1.3s linear ;
+}
+@keyframes popup {
+0%{
+opacity: 0;
+    
+}
+100%{
+    opacity: 1;
+}
+}
+.button_2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

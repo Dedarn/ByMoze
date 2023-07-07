@@ -86,14 +86,16 @@ font-family: 'Roboto', sans-serif;
 }
 /* cadre du pop up qui apparait */
 #modal_bg > .cadre_popup {
+    position: absolute;
+    right: 0;
     width: 110px;
     height: 210px;
     background-color: #ffffff;
     margin: auto ;
     transform: translateY(calc(12vh - 75px))
-                translateX(115%);
+                translateX(-8%);
     padding: 15px;
-    background-color: #bacf318e;
+    background-color: #bacf31aa;
     animation: popup 1.3s linear ;
 }
 @keyframes popup {
