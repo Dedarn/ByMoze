@@ -1,0 +1,129 @@
+/* page entiere */
+#creation_de_compte {
+    text-align: center;
+}
+
+/* H1 */
+#h1_creation_compte {
+    font-size: 15px;
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: var(--roboto);
+}
+
+/* LES 3 input  | Client particulier | Client pro |  Mozer  */
+.input_creation {
+    height: 15px;
+    width: 15px;
+    accent-color: var(--vert);
+}
+/* div  qui inclut | Client particulier | Client pro |  Mozer  */
+#je_suis {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 12px;
+    gap: 10px;
+    margin: auto;
+    width: 220px;
+}
+
+#client_particulier {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--montserrat);
+}
+
+#client_professionnel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-family:var(--montserrat);
+}
+
+#mozeur {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-family:var(--montserrat);
+}
+
+/* LES 3 input/label  | Adresse mail | Mot de passe | Confirmer mot de passe */
+#form_creation {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin: auto;
+    width: 250px;
+}
+
+.input_form {
+    width: 250px;
+    margin: auto;
+}
+
+#adress_mail,
+#mot_de_passe,
+#cmot_de_passe {
+    text-align: start;
+}
+
+.adress_mail>label {
+    font-size: 12px;
+    font-family: var(--montserrat);
+}
+
+.mot_de_passe>label {
+    font-size: 12px;
+    font-family: var(--montserrat);
+}
+
+#cmot_de_passe>label {
+    font-size: 12px;
+    font-family: var(--montserrat);
+}
+
+/*  */
+#complete_informations {
+    font-size: 12px;
+    margin-top: 15px;
+    font-family: var(--montserrat);
+}
+
+#form_radio_ouinon {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10px;
+    font-family: var(--roboto);
+}
+
+#oui,
+#non {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Bouton Valider */
+.valider {
+    width: 100px;
+    height: 20px;
+    background-color: var(--vert);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    margin-top: 15px;
+    font-family: var(--montserrat  );
+    margin-bottom: 30px;
+}

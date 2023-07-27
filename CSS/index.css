@@ -1,0 +1,68 @@
+/* Mise en forme section pitch */
+#pitch {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("IMG/pexels-karolina-grabowska-42391402.jpg");
+    background-color: #efefefc9;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: 320px 360px;
+    height: 360px;
+    gap: 20px;
+}
+
+/* Mise en forme du titre pitch */
+#h1-accueil {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px;
+    font-family: var(--roboto);
+    font-size: 18px;
+}
+
+/* Mise en forme du bouton */
+#rechercher {
+    margin-top: 10px;
+    width: 100px;
+    height: 20px;
+    background-color: var(--vert);
+    border: none;
+    font-family: var(--montserrat);
+    font-size: 12px;
+}
+
+/* Mise en forme du titre pitch */
+#titre-pitch {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 48px;
+    font-family: var(--roboto);
+    font-size: 18px;
+}
+
+/* Mise en forme du paragraphe titre */
+#paragraphe-titre {
+    margin: auto;
+    margin-bottom: 0;
+    width: 70%;
+    text-align: justify;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* Mise en forme section presentation-activites */
+#choisir-moze {
+    display: flex;
+    flex-direction: row;
+}
+
+#presentation-activites {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}

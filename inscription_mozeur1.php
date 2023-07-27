@@ -40,12 +40,12 @@ include "header_general.php"
         </div>
 
         <div class="adresse2_mozeur">
-            <label for="">Adresse 1</label>
+            <label for="">Adresse 2</label>
             <input type="text" name="adresse2_mozeur" class="input_form">
         </div>
 
         <div class="adresse3_mozeur">
-            <label for="">Adresse 1</label>
+            <label for="">Adresse 3</label>
             <input type="text" name="adresse3_mozeur" class="input_form">
         </div>
 

@@ -8,7 +8,10 @@ ul {
 
 /* Labels */
 label{
-    font-family: var(--Montserrat);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: var(--montserrat);
     font-size: 12px;
 }
 
@@ -27,4 +30,14 @@ li {
     gap: 10px;
     margin: auto;
     width: 250px;
+}
+
+.li_etape1 ,.li_etape2 , .li_etape3{
+    border: solid 1px;
+    margin-top: 10px;
+    border-left: none;
+    border-top: none;
+    padding: 4px;
+    transform: skewX(-40deg);
+    border-bottom-right-radius: 10px;
 }

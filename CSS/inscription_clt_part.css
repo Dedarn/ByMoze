@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.span_label{
+    position: absolute;
+    margin-top: -50px;
+    
+    
+    
+    
+}
+
+
+.but_insc{
+    display: flex;
+    margin: auto;
+    background-color: var(--vert);
+    width: 100px;
+    height: 20px;
+    
+}
+
+.form_insc_clt_part{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 5px;
+}
+
+
+.form_insc_clt_part > label > input{
+    width: 200px;
+    height: 30px;
+}
+
+#civilite{
+    width: 200px;
+    height: 30px;  
+}
