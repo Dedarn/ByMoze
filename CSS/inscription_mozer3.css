@@ -1,28 +1,62 @@
-.ul_insc1{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    position: relative;
-    left: -25px;
-    top: 1px;
-    gap: 5px;
-    height: 20px;
+.ul_insc1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  position: relative;
+  justify-content: flex-start;
+  left: -25px;
+  /* top: 1px; */
+  gap: 8px;
+  height: 20px;
 }
-.li_etape1 ,.li_etape2 , .li_etape3{
-    border: solid 0.5px;
-    /* margin-top: 5px; */
-    border-left: none;
-    border-top: none;
-    padding-right: 15px;
-    transform: skewX(-40deg);
-    border-bottom-right-radius: 10px;
+.li_etape1,
+.li_etape2,
+.li_etape3 {
+  border: solid 0.5px;
+  margin-top: 0px;
+  border-left: none;
+  border-top: none;
+  padding-right: 15px;
+  transform: skewX(-40deg);
+  border-bottom-right-radius: 10px;
 }
-.p1, .p2, .p3{
-    transform: skewX(40deg);
+.p1,
+.p2,
+.p3 {
+  transform: skewX(40deg);
 }
-
-.p3{
-    color: var(--vert);
-    
+.p3 {
+  color: var(--vert);
 }
+.form_mozer3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 15px;
+  font-size: 12px;
+  gap: 15px;
+}
+.form_mozer3 > input,
+select {
+  width: 200px;
+}
+.indispo {
+  margin-left: 18px;
+}
+/* .radio_MAJ {
+  display: flex;
+  flex-direction: row;
+  width: 248px;
+  gap: 5px;
+  margin: auto;
+}
+ */
+ #rangeValue{
+  width: 50%;
+display: flex;
+font-size: 12px;
+margin: auto;
+align-items: center;
+ }

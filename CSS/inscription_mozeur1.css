@@ -1,0 +1,30 @@
+/* UL */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+/* Labels */
+label{
+    font-family: var(--Montserrat);
+    font-size: 12px;
+}
+
+/* Etapes */
+li {
+    margin-top: 5px;
+    font-family: var(--roboto);
+    font-size: 12px;
+}
+
+/* Formulaire */
+#form_creation_mozeur1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin: auto;
+    width: 250px;
+}
