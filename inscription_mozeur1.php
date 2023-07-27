@@ -1,16 +1,53 @@
 <?php
-include "header_general.php"
+include "header_general.php";
+
+// include_once "config.php";
+
+
+// include_once "config.php";
+
+
+
+// if (!empty($_POST)){
+//     if (isset($_POST["nom"]) && isset($_POST["prenom"]) && isset($_POST["email"]) && isset($_POST["telephone"]) && isset($$_POST["adresse1"]) && isset($_POST["adresse2"]) && isset($_POST["adresse3"]) && isset($_POST["code_postal"]) && isset($_POST["ville"]) ){
+
+
+//         $nom = sanitize($_POST["nom"]);
+//         $prenom = sanitize($_POST["prenom"]);
+//         $email = sanitize($_POST["telephone"]);
+//         $prenom = sanitize($_POST["adresse1"]);
+//         $prenom = sanitize($_POST["adresse2"]);
+//         $prenom = sanitize($_POST["adresse3"]);
+//         $prenom = sanitize($_POST["code_postal"]);
+//         $prenom = sanitize($_POST["ville"]);
+
+//         $sql = "UPDATE INTO utilisateur (nom, prenom,telephone, adresse1 ,adresse2 , adresse3) VALUE (:nom  ,:prenom, :telephone, :adresse1,:adresse2,:adresse3)";
+
+                 
+//         $query = $conn -> prepare($sql); 
+
+//         $query -> bindParam(":nom",$nom,PDO::PARAM_STR);
+//         $query -> bindParam(":prenom",$prenom,PDO::PARAM_STR);
+//         $query -> bindParam(":telephone",$telephone,PDO::PARAM_STR);
+//         $query -> bindParam(":adresse1",$adresse1,PDO::PARAM_STR);
+//         $query -> bindParam(":adresse2",$adresse2,PDO::PARAM_STR);
+//         $query -> bindParam(":adresse2",$adresse2,PDO::PARAM_STR);
+
+//         $query-> execute();
+
+            
+        
+//     }
+// }
 ?>
 
 <main>
 
-    <div id="etape_1_mozeur">
-        <ul id="">
-            <li>Etape 1 : Etat civil</li>
-            <li>Etape 2</li>
-            <li>Etape 3</li>
-        </ul>
-    </div>
+<ul class="ul_insc1">
+        <li class="li_etape1"><p class="p3">Etape 1 : Etat civil</p></li>
+        <li class="li_etape2"><p class="p2">Etape 2 </p></li>
+        <li class="li_etape3"><p class="p1">Etape 3 </p></li>
+</ul>
 
     <form method="post" id="form_creation_mozeur1">
 
@@ -59,7 +96,7 @@ include "header_general.php"
             <input type="text" name="ville_mozeur" class="input_form">
         </div>
 
-        <button class="valider" type="submit">Suivant</button>
+        <button class="valider" type="submit" ><a href="inscription_mozeur2.php">Suivant</a></button>
 
     </form>
 

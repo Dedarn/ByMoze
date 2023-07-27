@@ -8,38 +8,56 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
 
     <link rel="stylesheet" href="css/main.css">
     
 </head>
+<body>
+    <header>
 
-<header>
+        <div id="header">
 
-    <div id="header">
+            <img class="logo-by-moze" src="IMG/ByMoze logo.png" alt="Logo By Moze">
 
-        <img class="logo-by-moze" src="/IMG/ByMoze logo.png" alt="Logo By Moze">
+            <button id="bouton_recrute">On recrute</button>
 
-        <button id="bouton_recrute">On recrute</button>
+            <div id="home_burger">
 
-        <div id="home_burger">
+                <img src="ICONS/user-solid.png" class="connect_button"></img>
 
-            <img src="/ICONS/user-solid.png" class="connect_button"></img>
+                <a href="#" id="menubtn">
+                
 
-            <a href="#" id="menubtn">
-                <span class="burger-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-            </a>
-
+                    <img data-target="#modal_bg" class="burger-icon" src="IMG/Menu burger.png" alt="">
+                    
+                </a>
+            </div> 
         </div>
 
+        
+        <hr class="lower_line">
+        <div id="modal_bg" class="hidden">
+        <div class="cadre_popup">
+            <div class="button_1">
+                <div class="div_btn">
+                    <p>Jardinage</p>
+                </div>
+                <div class="div_btn">
+                    <p>Bricolage</p>
+                    </div>
+                <div class="div_btn">
+                    <p>Vitrerie</p>
+                </div>
+                <div class="div_btn">
+                    <p>Ménage</p>
+                </div>
+                <div class="div_btn">
+                    <p>Assistance informatique</p>
+                </div>
+            </div>       
         </div>
-    <hr class="lower_line">
+    </div> 
 
 
-</header>
-
-</html>
+    <script src="JS/app.js"></script>
+    </header>

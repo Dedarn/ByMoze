@@ -127,3 +127,6 @@
     font-family: var(--montserrat  );
     margin-bottom: 30px;
 }
+#imformation_supplementaire{
+    display: none;
+}

@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
 /* Menu partie droite */
 #home_burger {
     display: flex;
@@ -78,4 +77,52 @@
     margin: 0;
     opacity: 1;
 
+}
+
+
+
+
+
+
+
+.div_btn{
+display: flex;
+width: 60px;
+flex-direction: row;
+font-size: 12px;
+align-items: start;
+margin: auto;
+}
+/* texte dans le pop up */
+.div_btn_2 > a > p {
+font-family: 'Roboto', sans-serif;
+margin-bottom: 0;
+}
+/* cadre du pop up qui apparait */
+#modal_bg_2 > .cadre_popup_2 {
+position: absolute;
+right: 0;
+width: 110px;
+height: 150px;
+background-color: #ffffff;
+margin: auto ;
+transform: translateY(calc(12vh - 75px))
+            translateX(-8%);
+padding: 15px;
+background-color: #bacf31aa;
+animation: popup 1.3s linear ;
+}
+@keyframes popup {
+0%{
+opacity: 0;
+    
+}
+100%{
+    opacity: 1;
+}
+}
+.button_2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
