@@ -2,7 +2,6 @@
 @import url(root.css);
 @import url(header_accueil.css);
 @import url(header_general.css);
-@import url(inscription_client_pro1.css);
 @import url(creation_de_compte.css);
 @import url(connection.css);
 @import url(footer.css);
@@ -15,3 +14,7 @@
 @import url(reservation_client.css);
 @import url(prise_en_compte_reservation.css);
 @import url(inscription_clt_part.css);
+@import url(index.css);
+@import url(inscription_clt_pro1.css);
+@import url(inscription_clt_pro2.css);
+@import url(inscription_clt_pro3.css);

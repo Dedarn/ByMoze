@@ -98,7 +98,7 @@ include "header_general.php";
 
             <div id="form_radio_ouinon">
                 <div id="oui">
-                    <input type="radio" name="oui_non" class="input_creation">
+                    <input type="radio" name="oui_non" id="yes" class="input_creation">
                     <label for="">Oui</label>
                 </div>
                 <div id="non">

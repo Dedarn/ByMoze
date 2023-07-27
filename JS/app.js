@@ -21,13 +21,23 @@ function funcredirec (ev){
             console.log(ev);
     if (ev) {
          info.style.display = "block";
+         
+         const oui = document.getElementById("yes");
+         oui.addEventListener("click",valide ,false)
+         function valide (){
+
+
+         }
+         
+        }else{
+            
+            info.style.display = "none";
+            
+            
+        }
     
-    }else{
-        
-        info.style.display = "none";
-       
-    }
 }
+
 function none (ev){
     
     
@@ -44,6 +54,7 @@ function none (ev){
        
     }
 }
+
 
 
 
